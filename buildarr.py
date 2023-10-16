@@ -27,4 +27,4 @@ class Solution:
             else:
                 result+=self.numarr(n-1,m,k,maxim)
         self.dp[n][k][maxim]=result%((10**9)+7)
-        return result%((10**9)+7)
+        return result
